@@ -1,0 +1,430 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+    font-family: arial;
+  }
+  /*Gloabarl Css*/
+  .container{
+    width: 90vw;
+    margin: 0 auto;
+  }
+  
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  ul{
+    list-style-type: none;
+  }
+  .btn{
+    background: #FB2056;
+    padding: 15px 0px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-family: arial;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: block;
+    width: 150px;
+    height: auto;
+    text-align: center;
+    
+  }
+  .btn:hover{
+    background: #DA1C4B;
+  }
+  /*Gloabarl Css End*/
+  /*Hero Section Start*/
+  .hero_full_container{
+    background: url(https://websitedemos.net/outdoor-adventure-02/wp-content/uploads/sites/351/2018/11/hero-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 700px;
+    background-attachment: fixed;
+  }
+  .hero_overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(00,00,00,0.50)
+  }
+  /*Hero Section End*/
+  .menubar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    align-items: center;
+  }
+  .logo img{
+    max-width: 140px;
+    height: auto;
+  }
+  .menu{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  .menu ul{
+    display: flex;
+    gap: 20px;
+  }
+  .menu ul li a{
+    color: white;
+    font-size: 18px;
+    font-family: arial;
+  }
+  .hero_area_text{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: white;
+    margin-top: 100px;
+  }
+  .hero_area_text h2{
+    font-size: 30px;
+  }
+  .hero_area_text h1{
+    font-size: 60px;
+  }
+  /*Hero Section End*/
+  /*qotaiton Section start*/
+  .qotation_full_container{
+    background: #F5F5F5;
+  }
+  .qotation_container{
+    padding: 60px 0px;
+    text-align: center;
+    display: flex;
+    justify-align: center;
+    align-items: center;
+    gap: 100px;
+  }
+  .qotation_container img{
+    width: 100px;
+    height: auto;
+    margin-left: 20px;
+  }
+  .qotation_container p{
+    font-size: 20px;
+  }
+  /*qotaiton Section end*/
+  
+  /*upcoming events start here*/
+  .upcoming_events{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .upcoming_events h1{
+    margin: 30px 0px;
+    text-align: center;
+  }
+  .item_container{
+    display: flex;
+    gap: 30px;
+   
+  }
+  .item{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    color: #54595f;
+    text-align: center;
+  
+  }
+  .item img{
+    width: 82%;
+    box-shadow: 10px 10px #EDEDED;
+    margin-bottom: 25px;
+  }
+  .item p{
+    font-size: 16px;
+  }
+  /*upcoming events end here*/
+  /*Explore start here*/
+  .explore_full_container{
+    background: url(https://websitedemos.net/outdoor-adventure-02/wp-content/uploads/sites/351/2020/01/section-bg-img.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 600px;
+    background-attachment: fixed;
+    
+  }
+  .explore_text_wrap{
+    margin: 0% 0% 0% 50%;
+    width: 500px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    line-height: 1.5;
+    padding-top: 200px;
+  }
+  /*Explore end here*/
+  /*upcoming tour start here*/
+  .upcoming_tour_full{
+    padding: 120px 0px;
+  }
+  .upcoming_tour_container{
+    display: flex;
+    gap: 20px;
+  }
+  .tour_item_left{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-right: 40px;
+    padding-left: 10px;
+    width: 33%;
+  }
+  .tour_item_left h1{
+    line-height: 1.4;
+    font-size: 32px;
+  }
+  .tour_item_left p{
+    line-height: 1.6;
+    color: grey;
+  }
+  .tour_item_middile{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .tour_item_right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  /*upcoming tour end here*/
+  .tour_item_middile img{
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  .tour_item_right img{
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  /*upcoming tour end here*/
+  
+  
+  /*footer start here*/
+  .footer_full{
+    background: #191919;
+    padding: 50px 0px;
+    text-align: center;
+    color: white;
+  }
+  /*footer end here*/
+  
+    /*About Page Start Here*/
+    /*About Page Start Here*/
+    /*About Page Start Here*/
+    /*About Page Start Here*/
+
+    .about_full_container{
+        background: url(https://websitedemos.net/outdoor-adventure-02/wp-content/uploads/sites/351/2018/11/about-bg-5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+    background-attachment: fixed;
+    }
+    /*Our Mission start Here*/
+.our_mission_full{
+    padding: 100px 0px 0px 0px;
+}
+.our_mission_container{
+    display: flex;
+    gap: 50px;
+    padding: 0px 50px;
+}
+.our_mission_item_left{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    justify-content: center;  
+    line-height: 1.6;  
+    flex: 1; 
+}
+.our_mission_item_left h1{
+    font-size: 40px;
+}
+.our_mission_item_left p{
+    color: gray;
+}
+.our_mission_item_right{
+    flex: 1;
+}
+.our_mission_item_right img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 10px 10px #EDEDED;
+}
+    /*Our Mission end Here*/
+.extraordinay_full_container{
+    padding: 100px 0px;
+}
+.extraordinary_container{
+    
+    display: flex;
+    gap: 20px;
+    padding: 0px 50px;
+}
+.extraordinary_left, .extraordinary_right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+}
+.extraordinary_container p{
+    color: gray;
+    line-height: 1.5;
+}
+    /*Service Page Start Here*/
+.service_full_container{
+    background: url(https://websitedemos.net/outdoor-adventure-02/wp-content/uploads/sites/351/2018/11/services-bg.jpg);
+    height: 550px; 
+}
+.it_time_full{
+    padding: 80px 0px;
+}
+.it_time_container{
+    display: flex;
+    flex-direction: column ;
+    gap: 20px;
+    text-align: center;
+    line-height: 1.5;
+}
+.adventur_full{
+    padding-bottom: 100px;
+}
+.adventur_container{
+    display: flex;
+    gap:1px;
+}
+.adventure_item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    line-height: 1.5;
+}
+.adventure_item img{
+    width: 80%;
+    box-shadow: 10px 10px #EDEDED;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+.why_outdoor_full{
+    padding: 100px 0px;
+    background: #F5F5F5;
+}
+.why_outdoor_container{
+    display: flex;
+    gap: 20px;
+    
+
+}
+.why_outdoor_left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+    line-height: 1.5;
+}
+    /*Service Page End Here*/
+
+  /*Project Page Start Here*/
+
+.project_full_container{
+  background: url(https://websitedemos.net/outdoor-adventure-02/wp-content/uploads/sites/351/2018/11/project-background.jpg);
+  height: 550px;
+}
+.water_sports_full{
+  padding: 100px 0px;
+}
+.water_sports_container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0px 50px;
+}
+.photo_gallery_container{
+  display: flex;
+  gap: 20px;
+  
+
+}
+.photo_gallery_container img{
+  width: 180px;
+  flex: 1;
+  border-radius: 5px;
+
+}
+  /*Project Page End Here*/
+
+  /*contact Page start Here*/
+
+.contact_full_container{
+  background: url(https://websitedemos.net/outdoor-adventure-02/wp-content/uploads/sites/351/2018/11/about-bg-2.jpg);
+  height: 550px;
+}
+
+.contact_full{
+  padding: 150px 0px;
+}
+.contact_container{
+  display: flex;
+  gap: 50px;
+}
+.contact_left{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+}
+.contact_left input{
+  padding: 20px;
+  border: 1px solid #DDDDDD;
+  font-size: 16px;
+  background-color: #FAFAFA;
+  border-radius: 5px;
+}
+textarea{
+  padding: 20px;
+  padding-bottom: 100px;
+  border: 1px solid #DDDDDD;
+  font-size: 16px;
+  background-color: #FAFAFA;
+  border-radius: 5px;
+}
+
+.contact_right{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex: 1;
+}
+.social_icon{
+  display: flex;
+  gap: 20px;
+  font-size: 40px;
+}
+.social_icon i{
+  color:#FB2056;
+  transition: all 0.25s;
+}
+.social_icon i:hover{
+  color: grey;
+}
+  /*contact Page End Here*/
